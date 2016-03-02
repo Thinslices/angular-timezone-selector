@@ -150,7 +150,7 @@ angular.module('angular-timezone-selector', [])
               option.name + '</option>')
           })
           elem.append(optgroup)
-        })
+        });
 
         // Initialise the chosen box
         elem.chosen({
